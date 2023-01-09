@@ -12,7 +12,7 @@ In the final column select the required date. </br>
 Click on search and select result accordingly. </br>
 
 ### Making:
-This website is only based on Front-End Development. Technologies used are HTML and CSS, the reference for the site is taken from https://redbus.in/. </br>
+This website is only based on Front-End Development. Technologies used are HTML, CSS and GitHub, the reference for the site is taken from https://redbus.in/. </br>
 
 ### The project is made by:
 Adwait Puntambekar </br>
