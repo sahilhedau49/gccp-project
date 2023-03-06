@@ -67,7 +67,6 @@
 }
 
 .info {
-  width: 40%;
   display: flex;
   margin: auto auto;
   padding-top: 3rem;
@@ -330,4 +329,170 @@
 .end i {
   width: 2rem;
   cursor: pointer;
+}
+
+@media only screen and (max-width: 1024px) {
+  .bene,
+  .care,
+  .price {
+    width: 20rem;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .footer {
+    font-size: 10px;
+  }
+  .footer div h4 {
+    font-size: 15px;
+  }
+  .s2_main_head {
+    font-size: x-large;
+  }
+  .down_2 {
+    height: 55vh;
+    flex-direction: column;
+  }
+  .bene img,
+  .care img,
+  .price img {
+    width: 4rem;
+    margin-bottom: 5px;
+  }
+  .head_s2 {
+    margin: 0 0rem;
+    font-size: medium;
+  }
+  .s2_decs {
+    margin: 0;
+    font-size: small;
+  }
+  .global h3 {
+    margin-top: 2rem;
+    margin-bottom: 1.5rem;
+    font-size: x-large;
+  }
+  .resp-flag {
+    display: flex;
+    flex-direction: row;
+  }
+  .flag_1,
+  .flag_2 {
+    display: flex;
+    flex-direction: column;
+    margin-left: 0;
+    margin-right: 0;
+  }
+  .flag_1 div,
+  .flag_2 div {
+    margin-bottom: 1rem;
+    text-align: center;
+    margin-left: 20px;
+  }
+  .flag_1 div img,
+  .flag_2 div img {
+    width: 5rem;
+  }
+
+  .numbers h3 {
+    font-size: x-large;
+    margin-bottom: 1rem;
+  }
+  .ticket,
+  .operator,
+  .customer {
+    width: 25%;
+    margin-left: 1rem;
+  }
+  .ticket h2,
+  .operator h2,
+  .customer h2 {
+    font-size: 1.4rem;
+    padding-bottom: 0;
+  }
+  .num_info_head {
+    font-size: small;
+    padding-bottom: 1rem;
+  }
+  .section_2 {
+    margin-top: 2rem;
+  }
+  .promise_img {
+    width: 4rem;
+  }
+  .dis_top {
+    width: 80%;
+  }
+  .fst_img {
+    width: 4rem;
+    margin-right: 0rem;
+  }
+  .fst_head {
+    font-size: medium;
+    padding-bottom: 0.5rem;
+    padding-top: 0.5rem;
+  }
+  .fst_decs {
+    padding-bottom: 0.5rem;
+  }
+  .dis_top {
+    margin-bottom: 1.5rem;
+  }
+  .superhit {
+    margin-right: 1rem;
+  }
+  .superhit,
+  .getoff {
+    width: 65%;
+  }
+  .dis_down {
+    display: flex;
+    flex-direction: row;
+    align-self: center;
+    width: 80%;
+  }
+  .sec-img {
+    width: 100%;
+  }
+  .sec-para {
+    font-size: small;
+  }
+  .info input,
+  .btn_sb {
+    height: 3rem;
+    width: 8rem;
+    border: 1px solid #000;
+  }
+  .sec-field {
+    width: 80%;
+  }
+  .banner {
+    background-image: url(images/banner.png) no-repeat center;
+    display: flex;
+  }
+  .info input,
+  .date {
+    padding: 0 20px;
+    border: 2px solid #222;
+    font-size: larger;
+    background: transparent;
+  }
+  .info {
+    height: 30vh;
+    flex-direction: column;
+    justify-content: space-between;
+    backdrop-filter: blur(5px);
+    padding-top: 0;
+    margin-top: 6rem;
+  }
+  .logo {
+    cursor: pointer;
+    margin: auto 1rem;
+  }
+  .login {
+    margin-left: auto;
+  }
+  .num-para {
+    font-size: 12px;
+  }
 }
