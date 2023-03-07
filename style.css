@@ -4,6 +4,10 @@
   font-family: sans-serif;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 .navBar {
   height: 5rem;
   display: flex;
@@ -339,7 +343,7 @@
   }
 }
 
-@media only screen and (max-width: 500px) {
+@media only screen and (max-width: 800px) {
   .footer {
     font-size: 10px;
   }
