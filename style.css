@@ -344,6 +344,11 @@ html {
 }
 
 @media only screen and (max-width: 800px) {
+  .navBar {
+    width: 100%;
+    justify-content: space-between;
+  }
+
   .footer {
     font-size: 10px;
   }
